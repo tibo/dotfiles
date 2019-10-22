@@ -107,7 +107,7 @@ export SWIG_3_HOME=/usr/local/opt/swig@3/
 export ANDROID_HOME=/Users/tibo/Library/Android/sdk
 export NDK_ROOT=/Users/tibo/Library/Android/sdk/ndk/20.0.5594570
 
-export PATH="$PATH:$HOME/.rvm/bin:$ANT_HOME/bin"
+export PATH="$PATH:$HOME/.rvm/bin:$ANT_HOME/bin:$HOME/bin"
 
 git() {
     if [[ "$1" = "add" ]] || [[ "$1" = "stage" ]]; then
