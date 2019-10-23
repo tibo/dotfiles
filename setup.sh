@@ -1,6 +1,8 @@
 #!/bin/bash
 # set -x
 
+git submodule update --init
+
 echo "=== Setting up dot files ==="
 
 echo "=> setup zshrc"
