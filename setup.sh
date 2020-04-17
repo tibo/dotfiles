@@ -6,16 +6,16 @@ git submodule update --init
 echo "=== Setting up dot files ==="
 
 echo "=> setup zshrc"
-rm -f ~/.zshrc
+mv ~/.zshrc ~/.zshrc.old
 ln -s "$(pwd)/zshrc" ~/.zshrc
 
 echo "=> setup vmrc and vim packages"
-rm -f ~/.vimrc
+mv ~/.vimrc ~/.vimrc.old
 ln -s "$(pwd)/vimrc" ~/.vimrc
-rm -rf ~/.vim
+mv ~/.vim ~/.vim.old
 mkdir -p ~/.vim/pack/themes/start/
 ln -s "$(pwd)/draculat-vim" ~/.vim/pack/themes/start/draculat-vim
 
 echo "=> setup git global config"
-rm -f ~/.gitconfig
+mv ~/.gitconfig ~/.gitconfig.old
 ln -s "$(pwd)/gitconfig" ~/.gitconfig
