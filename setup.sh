@@ -13,8 +13,7 @@ echo "=> setup vmrc and vim packages"
 mv ~/.vimrc ~/.vimrc.old
 ln -s "$(pwd)/vimrc" ~/.vimrc
 mv ~/.vim ~/.vim.old
-mkdir -p ~/.vim/pack/themes/start/
-ln -s "$(pwd)/draculat-vim" ~/.vim/pack/themes/start/draculat-vim
+ln -s "$(pwd)/vim" ~/.vim
 
 echo "=> setup git global config"
 mv ~/.gitconfig ~/.gitconfig.old
