@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # set -x
 
 git submodule update --init
@@ -23,3 +23,5 @@ rm ~/.fzf.sh
 ln -s "$(pwd)/fzf.sh" ~/.fzf.sh
 rm ~/.z.sh
 ln -s "$(pwd)/z/z.sh" ~/.z.sh
+
+source ~/.zshrc
