@@ -3,7 +3,7 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
-. $HOME/Documents/Dotfiles/z/z.sh
+. $HOME/.z.sh
 
 source $ZSH/oh-my-zsh.sh
 
@@ -32,4 +32,4 @@ export PATH="/usr/local/opt/gettext/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/gettext/lib"
 export CPPFLAGS="-I/usr/local/opt/gettext/include"
 
-. $HOME/Documents/Dotfiles/fzf.sh
+. $HOME/.fzf.sh

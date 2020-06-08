@@ -18,3 +18,8 @@ ln -s "$(pwd)/vim/" ~/.vim
 echo "=> setup git global config"
 mv ~/.gitconfig ~/.gitconfig.old
 ln -s "$(pwd)/gitconfig" ~/.gitconfig
+
+rm ~/.fzf.sh
+ln -s "$(pwd)/fzf.sh" ~/.fzf.sh
+rm ~/.z.sh
+ln -s "$(pwd)/z/z.sh" ~/.z.sh
