@@ -1,4 +1,4 @@
-[submodule ".vim/pack/themes/start/dracula-vim"]
+[submodule "vim/pack/themes/start/dracula-vim"]
 	path = vim/pack/themes/start/draculat-vim
 	url = https://github.com/dracula/vim.git
 [submodule "z"]
