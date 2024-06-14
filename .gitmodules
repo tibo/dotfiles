@@ -3,7 +3,7 @@
 	url = https://github.com/dracula/vim.git
 [submodule "z"]
 	path = z
-	url = git@github.com:rupa/z.git
+	url = https://github.com/rupa/z.git
 [submodule "vim/pack/ap/start/vim-css-color"]
 	path = vim/pack/ap/start/vim-css-color
-	url = git@github.com:ap/vim-css-color.git
+	url = https://github.com/ap/vim-css-color.git
